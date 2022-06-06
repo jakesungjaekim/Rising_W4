@@ -1,19 +1,29 @@
-import Button from "./components/UI/Button";
-import Input from "./components/UI/Input";
-import Card from "./components/UI/Card";
+import React from "react";
+
+import { Routes, Route } from "react-router-dom";
+
+import Test from "./pages/Test";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
+import Watch from "./pages/Watch";
+import SignUp from "./pages/SignUp";
+import Payment from "./pages/Payment";
+import Membership from "./pages/Membership";
 
 function App() {
   return (
-    <div>
-      Hello World
-      <Button backgroundColor="true">하이루</Button>
-      <Input placeholder="이메일주소를 입력해주세요" />
-      <Input placeholder="비밀번호를 입력해주세요" />
-      <Card>
-        <h2>Title</h2>
-        <p>Contents</p>
-      </Card>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/watch" element={<Watch />} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route path="/payment" element={<Payment />} />
+      <Route path="/membership" element={<Membership />} />
+      <Route path="/test" element={<Test />} />
+      <Route path="*" element={<div>404 PAGE</div>} />
+    </Routes>
   );
 }
 
