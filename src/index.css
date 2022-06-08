@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(./assets/fonts/NetflixSans-Regular.otf);
+  font-family: NefilxSans-Regular;
+}
+
+html {
+  font-family: NetflixSans-Regular;
+  margin: 0;
+  background-color: rgb(62, 117, 99);
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
