@@ -1,0 +1,26 @@
+.header-select {
+  display: flex;
+  color: white;
+
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0);
+}
+
+.header-select i {
+  padding: 5px 10px;
+}
+
+.header-select select {
+  color: #333;
+  font-size: 16px;
+  width: 100%;
+
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+
+  margin-right: 35px;
+}

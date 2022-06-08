@@ -1,12 +1,15 @@
 import React from "react";
 
 import { Fragment } from "react";
-import Button from "../components/UI/Button";
+
+import Header from "../components/Layout/Header";
+import NetflixStart from "../components/Netflix/Home/NetfilxStart";
 
 const Home = (props) => {
   return (
     <Fragment>
-      <Button>로그인</Button>
+      <Header />
+      <NetflixStart />
     </Fragment>
   );
 };

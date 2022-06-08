@@ -4,8 +4,10 @@ const CardDiv = styled.div`
   padding: 75px 45px;
   color: white;
   background-color: black;
-  border-radius: 8px;
   boder-bottom: 8px solid #222;
+
+  display: flex;
+  justify-content: center;
 `;
 
 const Card = (props) => {
