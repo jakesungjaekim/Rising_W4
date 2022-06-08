@@ -1,0 +1,35 @@
+.watch-main {
+  background-image: url("https://occ-0-988-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdb6Xk984nqxm1iZFSX-ziMN7C2QHL4hGh2FsI03bBbkQHCFK2ht7RkU8fNgmlqgUy_8TZz_F8B87SbBIxnAzWqSzD25pB5NR9mj.webp?r=b4b");
+  height: 700px;
+  padding: 70px 45px;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 8px solid #222;
+}
+
+.watch-main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.16);
+  z-index: 1;
+}
+
+.watch-main-text img {
+  width: 700px;
+  padding: 150px 0px 20px 0;
+}
+
+.watch-main-text p {
+  font-size: 23px;
+  font-weight: 350;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.45);
+}
+
+.button-wrap {
+  margin: 30px auto;
+}
