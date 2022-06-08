@@ -1,0 +1,36 @@
+.footer-wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  background-color: black;
+  color: #757575;
+  text-align: left;
+
+  padding: 75px 500px;
+  margin: 0 auto;
+}
+
+.footer-links ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 12px 0 0;
+  gap: 20px 20px;
+
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.footer-information h3 {
+  font-size: 13px;
+  margin: 24px 0 13px 0;
+}
+
+.footer-information p {
+  font-size: 12px;
+  margin: 0;
+}
