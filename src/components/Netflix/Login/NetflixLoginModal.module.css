@@ -1,0 +1,96 @@
+.login-box {
+  width: 450px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+}
+
+.login-box h2 {
+  text-align: left;
+  color: white;
+  font-size: 32px;
+  margin: 30px 65px 0px;
+}
+.login-box form {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+
+  padding: 30px 68px;
+}
+
+.login input {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: none;
+
+  border-radius: 8px;
+
+  background-color: #333;
+  line-height: 50px;
+  padding: 5px 20px 0;
+
+  width: 100%;
+  height: 50px;
+
+  color: white;
+}
+
+.login button {
+  margin-top: 20px;
+  box-sizing: border-box;
+
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(32, 31, 31, 0.3);
+  background-color: #e50914;
+
+  color: white;
+  width: 100%;
+  height: 60px;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  margin: 24px 0px 5px;
+  padding: 15px;
+}
+
+.checkbox-wrap {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+}
+.checkbox-wrap input {
+  width: 15px;
+  margin-right: 10px;
+
+  /* background: #8c8c8c; */
+}
+
+.checkbox-wrap label {
+  color: #8c8c8c;
+  font-size: 13px;
+  padding: 20px 0;
+}
+
+form h4 {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.login p {
+  color: #757575;
+  font-size: 13px;
+}
+
+span {
+  color: white;
+}

@@ -1,9 +1,12 @@
-import React from "react";
-
 import { Fragment } from "react";
+import NetflixLogin from "../components/Netflix/Login/NetflixLogin";
 
-const Login = (props) => {
-  return <Fragment>로그인</Fragment>;
+const Login = () => {
+  return (
+    <Fragment>
+      <NetflixLogin />
+    </Fragment>
+  );
 };
 
 export default Login;

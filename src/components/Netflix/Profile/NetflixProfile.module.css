@@ -1,0 +1,39 @@
+.profile-logo {
+  padding: 20px 0 10px 55px;
+  margin-bottom: 155px;
+}
+
+.profile-logo img {
+  width: 92.5px;
+}
+
+.profile-main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.profile-main h2 {
+  font-size: 67px;
+  margin: 45px 0;
+}
+
+.profile-button-wrap button {
+  background-color: transparent;
+  color: #8c8c8c;
+  font-size: 20px;
+  border: 0.5px solid;
+  padding: 20px;
+  width: 200px;
+}
+
+.profile-button-wrap button:hover,
+.profile-button-wrap button:active {
+  border: 3px solid white;
+}
+
+.profile-list {
+  display: flex;
+  justify-content: center;
+}
