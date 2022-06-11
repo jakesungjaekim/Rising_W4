@@ -24,9 +24,11 @@ const Header = (props) => {
         </Link>
         <div className={classes["header-side"]}>
           <HeaderLangOption />
-          <Button color="#e50914" fontSize="20px">
-            로그인
-          </Button>
+          <Link to="/login">
+            <Button color="#e50914" fontSize="20px">
+              로그인
+            </Button>
+          </Link>
         </div>
       </header>
     </Fragment>
